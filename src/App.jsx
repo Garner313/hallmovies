@@ -1,303 +1,351 @@
+import "./App.css";
 import { useEffect, useState } from "react";
 import About from "./About";
 
-const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+const GOLD = "#D4AF37";
 
 export default function App() {
-  const [page, setPage] = useState("home");
   const [epg, setEpg] = useState([]);
   const [programs, setPrograms] = useState([]);
   const [currentProgram, setCurrentProgram] = useState(null);
-  const [nextProgram, setNextProgram] = useState(null);
+
   const [movieData, setMovieData] = useState(null);
   const [movieCast, setMovieCast] = useState([]);
-  const [posters, setPosters] = useState({});
-  const [selectedMovie, setSelectedMovie] = useState(null);
+
+  const [movieMap, setMovieMap] = useState({});
+  const [movieDetails, setMovieDetails] = useState({});
+
+  const [showAbout, setShowAbout] = useState(false);
+  const [expanded, setExpanded] = useState({});
+  const [maldivesTime, setMaldivesTime] = useState("");
+
+  const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+  const isMobile = window.innerWidth < 768;
+
+  const formatDateFancy = (dateStr) => {
+    const d = new Date(dateStr);
+    const day = d.getDate();
+    const month = d.toLocaleString("en-US", { month: "long" });
+    const year = d.getFullYear();
+    return `${day} ${month} ${year}`;
+  };
 
   // LOAD EPG
   useEffect(() => {
     fetch("/epg.json").then((r) => r.json()).then(setEpg);
   }, []);
 
-  // FIXED LOGIC (CURRENT + NEXT 24H)
+  // PROCESS PROGRAMS
   useEffect(() => {
     if (!epg.length) return;
-
-    const now = new Date();
-    const next24h = new Date(now.getTime() + 86400000);
 
     const sorted = [...epg].sort(
       (a, b) => new Date(a.start) - new Date(b.start)
     );
 
+    const now = new Date();
+    const next24h = new Date(now.getTime() + 86400000);
+
     const filtered = sorted.filter((p) => {
       const start = new Date(p.start);
       const end = new Date(start.getTime() + p.durationSeconds * 1000);
-
-      return (
-        (now >= start && now < end) ||
-        (start > now && start <= next24h)
-      );
+      return (now >= start && now < end) || (start > now && start <= next24h);
     });
 
     setPrograms(filtered);
 
-    const index = sorted.findIndex((p) => {
+    const current = sorted.find((p) => {
       const start = new Date(p.start);
       const end = new Date(start.getTime() + p.durationSeconds * 1000);
       return now >= start && now < end;
     });
 
-    if (index !== -1) {
-      setCurrentProgram(sorted[index]);
-      setNextProgram(sorted[index + 1] || null);
-    }
+    setCurrentProgram(current || sorted[0]);
   }, [epg]);
 
-  // TMDB SEARCH (IMPROVED)
-  const fetchMovie = async (title) => {
-    const clean = title
-      .replace(/-/g, " ")
-      .replace(/\bPG\b|\bR\b|\bUA\b|\b15\b/g, "")
-      .trim();
-
-    const queries = [
-      clean,
-      clean.split(" ").slice(0, 2).join(" "),
-      clean.replace(/[^a-zA-Z0-9 ]/g, ""),
-    ];
-
-    for (let q of queries) {
-      const res = await fetch(
-        `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${encodeURIComponent(q)}`
-      );
-      const data = await res.json();
-      if (data.results?.length) return data.results[0];
-    }
-
-    return null;
-  };
-
-  // HERO DATA
+  // CURRENT MOVIE
   useEffect(() => {
     if (!currentProgram) return;
 
-    fetchMovie(currentProgram.title).then(async (movie) => {
-      if (!movie) return;
+    const clean = currentProgram.title.split("-")[0].trim();
 
-      setMovieData(movie);
+    fetch(`https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${encodeURIComponent(clean)}`)
+      .then((r) => r.json())
+      .then(async (data) => {
+        const movie = data.results?.[0];
+        if (!movie) return;
 
-      const credits = await fetch(
-        `https://api.themoviedb.org/3/movie/${movie.id}/credits?api_key=${API_KEY}`
-      ).then((r) => r.json());
+        setMovieData(movie);
 
-      setMovieCast(credits.cast?.slice(0, 5));
-    });
+        const credits = await fetch(
+          `https://api.themoviedb.org/3/movie/${movie.id}/credits?api_key=${API_KEY}`
+        ).then((r) => r.json());
+
+        setMovieCast(credits.cast?.slice(0, 5));
+      });
   }, [currentProgram]);
 
-  // LOAD POSTERS
+  // LOAD ALL MOVIES
   useEffect(() => {
     if (!programs.length) return;
 
     const load = async () => {
       const map = {};
+      const details = {};
+
       for (const p of programs) {
-        const movie = await fetchMovie(p.title);
-        if (movie?.poster_path) {
-          map[p.title] =
-            "https://image.tmdb.org/t/p/w200" + movie.poster_path;
-        }
+        const clean = p.title.split("-")[0].trim();
+
+        try {
+          const res = await fetch(
+            `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${encodeURIComponent(clean)}`
+          );
+          const data = await res.json();
+
+          const movie = data.results?.[0];
+          if (!movie) continue;
+
+          map[p.title] = {
+            backdrop: movie.backdrop_path
+              ? "https://image.tmdb.org/t/p/original" + movie.backdrop_path
+              : null,
+            poster: movie.poster_path
+              ? "https://image.tmdb.org/t/p/w500" + movie.poster_path
+              : null,
+          };
+
+          const credits = await fetch(
+            `https://api.themoviedb.org/3/movie/${movie.id}/credits?api_key=${API_KEY}`
+          ).then((r) => r.json());
+
+          const release = await fetch(
+            `https://api.themoviedb.org/3/movie/${movie.id}/release_dates?api_key=${API_KEY}`
+          ).then((r) => r.json());
+
+          let cert = "";
+          const us = release.results?.find((r) => r.iso_3166_1 === "US");
+          if (us) cert = us.release_dates?.[0]?.certification || "";
+
+          details[p.title] = {
+            overview: movie.overview,
+            cast: credits.cast?.slice(0, 4),
+            cert,
+          };
+        } catch {}
       }
-      setPosters(map);
+
+      setMovieMap(map);
+      setMovieDetails(details);
     };
 
     load();
   }, [programs]);
 
-  // OPEN MOVIE POPUP
-  const openMovie = async (title) => {
-    const movie = await fetchMovie(title);
-    if (!movie) return;
+  // LIVE CLOCK
+  useEffect(() => {
+    const updateClock = () => {
+      const time = new Date().toLocaleTimeString("en-US", {
+        hour: "2-digit",
+        minute: "2-digit",
+      });
+      setMaldivesTime(time);
+    };
 
-    setSelectedMovie(movie);
-
-    const credits = await fetch(
-      `https://api.themoviedb.org/3/movie/${movie.id}/credits?api_key=${API_KEY}`
-    ).then((r) => r.json());
-
-    setMovieCast(credits.cast?.slice(0, 8));
-  };
-
-  // PROGRESS
-  const getProgress = () => {
-    if (!currentProgram) return 0;
-
-    const now = new Date();
-    const start = new Date(currentProgram.start);
-    const end = new Date(start.getTime() + currentProgram.durationSeconds * 1000);
-
-    return Math.min(Math.max(((now - start) / (end - start)) * 100, 0), 100);
-  };
+    updateClock();
+    const interval = setInterval(updateClock, 1000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
-    <div className="bg-black text-white min-h-screen">
+    <div style={{ background: "#000", color: "#fff", minHeight: "100vh" }}>
 
       {/* HEADER */}
-      <div className="flex justify-between items-center p-4 border-b border-yellow-500">
-        <img src="/hallmovies-logo.png" className="h-10" />
+      <div style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        position: "sticky",
+        top: 0,
+        zIndex: 1000,
+        background: "#000",
+        padding: 15,
+        borderBottom: `1px solid ${GOLD}`,
+        boxShadow: "0 2px 10px rgba(0,0,0,0.5)"
+      }}>
+        <img src="/hallmovies-logo.png" style={{ height: 85 }} />
 
-        <div className="flex gap-6 text-yellow-500">
-          <button onClick={() => setPage("home")}>Home</button>
-          <button onClick={() => setPage("about")}>About</button>
+        <div style={{
+          position: "absolute",
+          right: 15,
+          color: "#aaa",
+          fontSize: "1.2rem",
+          fontWeight: "bold"
+        }}>
+          {maldivesTime}
         </div>
       </div>
 
-      {page === "home" && (
-        <>
-          {/* HERO */}
-          {currentProgram && (
-            <div
-              className="h-[70vh] bg-cover bg-center flex items-end relative"
-              style={{
-                backgroundImage: movieData?.backdrop_path
-                  ? `url(https://image.tmdb.org/t/p/original${movieData.backdrop_path})`
-                  : movieData?.poster_path
-                  ? `url(https://image.tmdb.org/t/p/original${movieData.poster_path})`
-                  : "none",
-              }}
-            >
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent" />
+      {/* HERO */}
+      {currentProgram && movieData && (
+        <div style={{
+          minHeight: "80vh",
+          backgroundImage: `url(https://image.tmdb.org/t/p/original${movieData.backdrop_path})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          display: "flex",
+          alignItems: isMobile ? "flex-end" : "center",
+        }}>
+          <div style={{
+            background: isMobile ? "rgba(0,0,0,0.75)" : "rgba(0,0,0,0.6)",
+            padding: 20,
+            width: isMobile ? "100%" : "50%",
+          }}>
+            <h1 style={{ fontSize: isMobile ? 28 : 42 }}>
+              {currentProgram.title}
+            </h1>
+            <p>{movieData.overview}</p>
+          </div>
+        </div>
+      )}
 
-              <div className="relative p-6 max-w-3xl">
-                <h1 className="text-4xl font-bold">
-                  {currentProgram.title}
-                </h1>
+      {/* COMING UP */}
+      <div style={{ padding: 20 }}>
+        <h2 style={{ color: GOLD }}>Coming Up (Next 24h)</h2>
 
-                <div className="text-sm text-gray-400 mt-1">
-                  {new Date(currentProgram.start).toLocaleTimeString([], {
+        {programs.map((p, i) => {
+          const imgData = movieMap[p.title];
+          const img = isMobile ? imgData?.poster : imgData?.backdrop;
+          const details = movieDetails[p.title];
+          const isExpanded = expanded[i];
+
+          return (
+            <div key={i} style={{ marginBottom: 25 }}>
+
+              {isMobile && img && (
+                <div style={{
+                  height: 260,
+                  backgroundImage: `url(${img})`,
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                  backgroundColor: "#000"
+                }} />
+              )}
+
+              {!isMobile && img && (
+                <div style={{ height: "55vh", position: "relative" }}>
+                  <div style={{
+                    position: "absolute",
+                    inset: 0,
+                    backgroundImage: `url(${img})`,
+                    backgroundSize: "cover"
+                  }} />
+                  <div style={{
+                    position: "absolute",
+                    inset: 0,
+                    background: "rgba(0,0,0,0.6)"
+                  }} />
+                </div>
+              )}
+
+              <div style={{
+                background: isMobile ? "#000" : "transparent",
+                padding: isMobile ? 18 : 20,
+                position: "relative"
+              }}>
+                <h2 style={{ fontSize: isMobile ? 30 : 32 }}>{p.title}</h2>
+
+                <div style={{
+                  color: GOLD,
+                  fontSize: isMobile ? 30 : 32,
+                  fontWeight: "bold"
+                }}>
+                  {formatDateFancy(p.start)} •{" "}
+                  {new Date(p.start).toLocaleTimeString("en-US", {
                     hour: "2-digit",
                     minute: "2-digit",
                   })}
                 </div>
 
-                <p className="mt-3 text-gray-300">
-                  {movieData?.overview}
+                <p style={{
+                  marginTop: 10,
+                  fontSize: isMobile ? 17 : 16,
+                  lineHeight: 1.6
+                }}>
+                  {isExpanded
+                    ? details?.overview
+                    : details?.overview?.slice(0, 160) + "..."}
                 </p>
 
-                <div className="text-sm mt-2">
-                  {movieCast.map((c) => c.name).join(", ")}
-                </div>
-
-                {/* PROGRESS */}
-                <div className="mt-4 w-80">
-                  <div className="h-2 bg-gray-700">
-                    <div
-                      className="h-2 bg-yellow-500"
-                      style={{ width: `${getProgress()}%` }}
-                    />
-                  </div>
-                </div>
-
-                {nextProgram && (
-                  <div
-                    className="mt-4 text-yellow-400 cursor-pointer"
-                    onClick={() => openMovie(nextProgram.title)}
+                {details?.overview?.length > 160 && (
+                  <span
+                    onClick={() =>
+                      setExpanded({ ...expanded, [i]: !isExpanded })
+                    }
+                    style={{ color: GOLD, cursor: "pointer" }}
                   >
-                    ▶ Coming Up: {nextProgram.title}
-                  </div>
-                )}
-              </div>
-            </div>
-          )}
-
-          {/* LIST */}
-          <div className="p-4 space-y-3">
-            {programs.map((p, i) => (
-              <div
-                key={i}
-                onClick={() => openMovie(p.title)}
-                className={`flex gap-3 p-3 rounded cursor-pointer ${
-                  currentProgram?.title === p.title
-                    ? "bg-yellow-500 text-black"
-                    : "border border-gray-700"
-                }`}
-              >
-                {posters[p.title] && (
-                  <img src={posters[p.title]} className="w-16" />
+                    {isExpanded ? "Read less" : "Read more"}
+                  </span>
                 )}
 
-                <div className="flex-1">{p.title}</div>
+                <div style={{
+                  marginTop: 8,
+                  fontSize: isMobile ? 16 : 16
+                }}>
+                  <strong style={{ color: GOLD }}>Cast:</strong>{" "}
+                  {details?.cast?.map((c) => c.name).join(", ")}
+                </div>
 
-                <div>
-                  {new Date(p.start).toLocaleDateString("en-US", {
-                    month: "short",
-                    day: "2-digit",
-                  })}{" "}
-                  •{" "}
-                  {new Date(p.start).toLocaleTimeString([], {
-                    hour: "2-digit",
-                    minute: "2-digit",
-                  })}
+                <div style={{
+                  position: "absolute",
+                  bottom: 10,
+                  right: 10,
+                  background: GOLD,
+                  color: "#000",
+                  padding: "5px 10px"
+                }}>
+                  {details?.cert}
                 </div>
               </div>
-            ))}
+
+            </div>
+          );
+        })}
+      </div>
+
+      {/* ABOUT */}
+      <div style={{ borderTop: `1px solid ${GOLD}`, padding: 20, textAlign: "center", position: "relative" }}>
+        {!showAbout && (
+          <div onClick={() => setShowAbout(true)} style={{ color: GOLD, cursor: "pointer" }}>
+            About HallMovies
           </div>
-        </>
-      )}
+        )}
 
-      {page === "about" && <About />}
-
-      {/* 🎬 MOVIE INFO POPUP */}
-      {selectedMovie && (
-        <div className="fixed inset-0 bg-black/90 flex justify-center items-center z-50">
-          <div className="bg-gray-900 w-[90%] max-w-md rounded-lg relative overflow-hidden">
-
-            {/* CLOSE BUTTON */}
-            <button
-              className="absolute top-3 right-3 bg-yellow-500 text-black px-3 py-1 rounded font-bold z-10"
-              onClick={() => setSelectedMovie(null)}
+        {showAbout && (
+          <div style={{ position: "relative" }}>
+            <div
+              onClick={() => setShowAbout(false)}
+              style={{
+                position: "absolute",
+                top: 10,
+                right: 15,
+                color: GOLD,
+                fontSize: 24,
+                cursor: "pointer"
+              }}
             >
               ✕
-            </button>
-
-            {/* POSTER */}
-            {selectedMovie.poster_path && (
-              <img
-                src={`https://image.tmdb.org/t/p/w500${selectedMovie.poster_path}`}
-                className="w-full h-60 object-cover"
-              />
-            )}
-
-            {/* CONTENT */}
-            <div className="p-4">
-
-              <h2 className="text-xl font-bold mb-2">
-                {selectedMovie.title}
-              </h2>
-
-              <div className="text-sm text-gray-400 mb-2">
-                ⭐ {selectedMovie.vote_average} |{" "}
-                {selectedMovie.release_date?.split("-")[0]}
-              </div>
-
-              <p className="text-sm text-gray-300 mb-3">
-                {selectedMovie.overview}
-              </p>
-
-              <div className="text-sm text-gray-400">
-                <span className="font-semibold text-white">Cast:</span>{" "}
-                {movieCast.map((c) => c.name).join(", ")}
-              </div>
-
             </div>
-          </div>
-        </div>
-      )}
 
-      {/* FOOTER */}
-      <div className="text-center p-4 text-gray-400">
-        Contact: bvij@hallmovies.com
+            <About />
+          </div>
+        )}
       </div>
+
+      <div style={{ textAlign: "center", padding: 20, color: "#777" }}>
+        © HallMovies
+      </div>
+
     </div>
   );
 }
