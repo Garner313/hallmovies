@@ -2088,5 +2088,2135 @@
   "title": "THE MAURITANIAN",
   "start": "2026-10-31T21:30:20",
   "durationSeconds": 5400
-}
+},
+  {
+    "title": "ALL ROADS LEAD TO ROME",
+    "rating": "PG-13",
+    "start": "2026-11-01T00:00:40+05:00",
+    "durationSeconds": 7182
+  },
+  {
+    "title": "BOOK CLUB",
+    "rating": "PG-13",
+    "start": "2026-11-01T02:00:22+05:00",
+    "durationSeconds": 7203
+  },
+  {
+    "title": "THE SECRET GARDEN",
+    "rating": "G",
+    "start": "2026-11-01T04:00:25+05:00",
+    "durationSeconds": 7182
+  },
+  {
+    "title": "ON CHESIL BEACH",
+    "rating": "R",
+    "start": "2026-11-01T06:00:07+05:00",
+    "durationSeconds": 7799
+  },
+  {
+    "title": "HIGH STRUNG FREE DANCE",
+    "rating": "PG",
+    "start": "2026-11-01T08:10:06+05:00",
+    "durationSeconds": 7516
+  },
+  {
+    "title": "GRAN TURISMO-BASED ON A TRUE STORY",
+    "rating": "PG-13",
+    "start": "2026-11-01T10:15:22+05:00",
+    "durationSeconds": 8983
+  },
+  {
+    "title": "PASSENGERS",
+    "rating": "PG-13",
+    "start": "2026-11-01T12:45:05+05:00",
+    "durationSeconds": 7544
+  },
+  {
+    "title": "WE ARE YOUR FRIENDS",
+    "rating": "R",
+    "start": "2026-11-01T14:50:49+05:00",
+    "durationSeconds": 6881
+  },
+  {
+    "title": "THE UGLY TRUTH",
+    "rating": "R",
+    "start": "2026-11-01T16:45:30+05:00",
+    "durationSeconds": 6603
+  },
+  {
+    "title": "THE INTRUDER",
+    "rating": "PG-13",
+    "start": "2026-11-01T18:35:33+05:00",
+    "durationSeconds": 6924
+  },
+  {
+    "title": "ANACONDAS-TRAIL OF BLOOD",
+    "rating": "R",
+    "start": "2026-11-01T20:30:57+05:00",
+    "durationSeconds": 6251
+  },
+  {
+    "title": "ELYSIUM",
+    "rating": "R",
+    "start": "2026-11-01T22:15:08+05:00",
+    "durationSeconds": 7197
+  },
+  {
+    "title": "DESTINATION WEDDING",
+    "rating": "R",
+    "start": "2026-11-02T00:15:05+05:00",
+    "durationSeconds": 6295
+  },
+  {
+    "title": "THE PERSONAL HISTORY OF DAVID COPPERFIELD",
+    "rating": "PG",
+    "start": "2026-11-02T02:00:00+05:00",
+    "durationSeconds": 8148
+  },
+  {
+    "title": "MOONLIGHT",
+    "rating": "R",
+    "start": "2026-11-02T04:15:48+05:00",
+    "durationSeconds": 7456
+  },
+  {
+    "title": "PERFECT ADDICTION",
+    "rating": "R",
+    "start": "2026-11-02T06:20:04+05:00",
+    "durationSeconds": 6906
+  },
+  {
+    "title": "THE PRINCE",
+    "rating": "R",
+    "start": "2026-11-02T08:15:10+05:00",
+    "durationSeconds": 6307
+  },
+  {
+    "title": "EASY A",
+    "rating": "PG-13",
+    "start": "2026-11-02T10:00:17+05:00",
+    "durationSeconds": 6316
+  },
+  {
+    "title": "A BIGGER SPLASH",
+    "rating": "R",
+    "start": "2026-11-02T11:45:33+05:00",
+    "durationSeconds": 8088
+  },
+  {
+    "title": "DREAM HORSE",
+    "rating": "PG",
+    "start": "2026-11-02T14:00:21+05:00",
+    "durationSeconds": 7507
+  },
+  {
+    "title": "UNDERWORLD EVOLUTION",
+    "rating": "R",
+    "start": "2026-11-02T16:05:28+05:00",
+    "durationSeconds": 7489
+  },
+  {
+    "title": "AMERICAN WOMEN",
+    "rating": "R",
+    "start": "2026-11-02T18:10:17+05:00",
+    "durationSeconds": 7526
+  },
+  {
+    "title": "MORBIUS",
+    "rating": "PG-13",
+    "start": "2026-11-02T20:15:43+05:00",
+    "durationSeconds": 7179
+  },
+  {
+    "title": "THE CRAFT-LEGACY",
+    "rating": "PG-13",
+    "start": "2026-11-02T22:15:22+05:00",
+    "durationSeconds": 6308
+  },
+  {
+    "title": "EVERYBODY WANTS SOME",
+    "rating": "R",
+    "start": "2026-11-03T00:00:30+05:00",
+    "durationSeconds": 8121
+  },
+  {
+    "title": "PLUS ONE",
+    "rating": "PG-15",
+    "start": "2026-11-03T02:15:51+05:00",
+    "durationSeconds": 7153
+  },
+  {
+    "title": "FALLING",
+    "rating": "R",
+    "start": "2026-11-03T04:15:04+05:00",
+    "durationSeconds": 8111
+  },
+  {
+    "title": "MAGGIE'S PLAN",
+    "rating": "R",
+    "start": "2026-11-03T06:30:15+05:00",
+    "durationSeconds": 7193
+  },
+  {
+    "title": "THE HONEYMOON",
+    "rating": "R",
+    "start": "2026-11-03T08:30:08+05:00",
+    "durationSeconds": 7192
+  },
+  {
+    "title": "THE SECRET-DARE TO DREAM",
+    "rating": "PG",
+    "start": "2026-11-03T10:30:00+05:00",
+    "durationSeconds": 7203
+  },
+  {
+    "title": "PRECIOUS CARGO",
+    "rating": "R",
+    "start": "2026-11-03T12:30:03+05:00",
+    "durationSeconds": 6300
+  },
+  {
+    "title": "MONEYBALL",
+    "rating": "PG-13",
+    "start": "2026-11-03T14:15:03+05:00",
+    "durationSeconds": 8998
+  },
+  {
+    "title": "ANACONDA 3-OFFSPRING",
+    "rating": "R",
+    "start": "2026-11-03T16:45:01+05:00",
+    "durationSeconds": 6356
+  },
+  {
+    "title": "THE LEGEND OF ZORRO",
+    "rating": "PG",
+    "start": "2026-11-03T18:30:57+05:00",
+    "durationSeconds": 8375
+  },
+  {
+    "title": "THE LAST SHIFT",
+    "rating": "R",
+    "start": "2026-11-03T20:50:32+05:00",
+    "durationSeconds": 6280
+  },
+  {
+    "title": "ZOMBIELAND-DOUBLE TAP",
+    "rating": "R",
+    "start": "2026-11-03T22:35:12+05:00",
+    "durationSeconds": 6935
+  },
+  {
+    "title": "MY SON",
+    "rating": "R",
+    "start": "2026-11-04T00:30:47+05:00",
+    "durationSeconds": 6595
+  },
+  {
+    "title": "MR. JONES",
+    "rating": "UA",
+    "start": "2026-11-04T02:20:42+05:00",
+    "durationSeconds": 8072
+  },
+  {
+    "title": "SECOND ACT",
+    "rating": "PG-13",
+    "start": "2026-11-04T04:35:14+05:00",
+    "durationSeconds": 7201
+  },
+  {
+    "title": "JOURNEY'S END",
+    "rating": "R",
+    "start": "2026-11-04T06:35:15+05:00",
+    "durationSeconds": 7802
+  },
+  {
+    "title": "A BAD MOMS CHRISTMAS",
+    "rating": "R",
+    "start": "2026-11-04T08:45:17+05:00",
+    "durationSeconds": 7191
+  },
+  {
+    "title": "CHAPPIE",
+    "rating": "R",
+    "start": "2026-11-04T10:45:08+05:00",
+    "durationSeconds": 8119
+  },
+  {
+    "title": "ALL NIGHTER",
+    "rating": "R",
+    "start": "2026-11-04T13:00:27+05:00",
+    "durationSeconds": 6311
+  },
+  {
+    "title": "THE BOOK OF ELI",
+    "rating": "R",
+    "start": "2026-11-04T14:45:38+05:00",
+    "durationSeconds": 7487
+  },
+  {
+    "title": "WORTH",
+    "rating": "PG-13",
+    "start": "2026-11-04T16:50:25+05:00",
+    "durationSeconds": 8404
+  },
+  {
+    "title": "HITCH",
+    "rating": "PG-13",
+    "start": "2026-11-04T19:10:29+05:00",
+    "durationSeconds": 7487
+  },
+  {
+    "title": "THE PERFECT GUY",
+    "rating": "PG-13",
+    "start": "2026-11-04T21:15:16+05:00",
+    "durationSeconds": 6926
+  },
+  {
+    "title": "LAKE PLACID VS. ANACONDA",
+    "rating": "NR",
+    "start": "2026-11-04T23:10:42+05:00",
+    "durationSeconds": 6566
+  },
+  {
+    "title": "SISU",
+    "rating": "R",
+    "start": "2026-11-05T01:00:08+05:00",
+    "durationSeconds": 6295
+  },
+  {
+    "title": "LILA & EVE",
+    "rating": "R",
+    "start": "2026-11-05T02:45:03+05:00",
+    "durationSeconds": 6606
+  },
+  {
+    "title": "ALAN PARTRIDGE",
+    "rating": "R",
+    "start": "2026-11-05T04:35:09+05:00",
+    "durationSeconds": 6316
+  },
+  {
+    "title": "LADY MACBETH",
+    "rating": "R",
+    "start": "2026-11-05T06:20:25+05:00",
+    "durationSeconds": 6579
+  },
+  {
+    "title": "TRUMBO",
+    "rating": "R",
+    "start": "2026-11-05T08:10:04+05:00",
+    "durationSeconds": 8427
+  },
+  {
+    "title": "MAYBE I DO",
+    "rating": "PG-13",
+    "start": "2026-11-05T10:30:31+05:00",
+    "durationSeconds": 6584
+  },
+  {
+    "title": "BAD MOMS",
+    "rating": "R",
+    "start": "2026-11-05T12:20:15+05:00",
+    "durationSeconds": 7195
+  },
+  {
+    "title": "THE COMMAND",
+    "rating": "PG-13",
+    "start": "2026-11-05T14:20:10+05:00",
+    "durationSeconds": 8115
+  },
+  {
+    "title": "THE EXCEPTION",
+    "rating": "R",
+    "start": "2026-11-05T16:35:25+05:00",
+    "durationSeconds": 7490
+  },
+  {
+    "title": "OUR FRIEND",
+    "rating": "R",
+    "start": "2026-11-05T18:40:15+05:00",
+    "durationSeconds": 8414
+  },
+  {
+    "title": "UNDERWORLD-RISE OF THE LYCANS",
+    "rating": "R",
+    "start": "2026-11-05T21:00:29+05:00",
+    "durationSeconds": 6308
+  },
+  {
+    "title": "INTERSECTIONS",
+    "rating": "R",
+    "start": "2026-11-05T22:45:37+05:00",
+    "durationSeconds": 7207
+  },
+  {
+    "title": "THE INTRUDER",
+    "rating": "PG-13",
+    "start": "2026-11-06T00:45:44+05:00",
+    "durationSeconds": 7184
+  },
+  {
+    "title": "HIGH STRUNG FREE DANCE",
+    "rating": "PG",
+    "start": "2026-11-06T02:45:28+05:00",
+    "durationSeconds": 7173
+  },
+  {
+    "title": "ON CHESIL BEACH",
+    "rating": "R",
+    "start": "2026-11-06T04:45:01+05:00",
+    "durationSeconds": 7499
+  },
+  {
+    "title": "ORDINARY LOVE",
+    "rating": "R",
+    "start": "2026-11-06T06:50:00+05:00",
+    "durationSeconds": 6916
+  },
+  {
+    "title": "SCARY STORIES TO TELL IN THE DARK",
+    "rating": "PG-13",
+    "start": "2026-11-06T08:45:16+05:00",
+    "durationSeconds": 7520
+  },
+  {
+    "title": "THE MITCHELLS VS THE MACHINES",
+    "rating": "PG",
+    "start": "2026-11-06T10:50:36+05:00",
+    "durationSeconds": 7179
+  },
+  {
+    "title": "ELYSIUM",
+    "rating": "R",
+    "start": "2026-11-06T12:50:15+05:00",
+    "durationSeconds": 7201
+  },
+  {
+    "title": "THE PIRATES! BAND OF MISFITS",
+    "rating": "PG",
+    "start": "2026-11-06T14:50:16+05:00",
+    "durationSeconds": 5987
+  },
+  {
+    "title": "PASSENGERS",
+    "rating": "PG-13",
+    "start": "2026-11-06T16:30:03+05:00",
+    "durationSeconds": 8103
+  },
+  {
+    "title": "JULIE & JULIA",
+    "rating": "PG-13",
+    "start": "2026-11-06T18:45:06+05:00",
+    "durationSeconds": 8102
+  },
+  {
+    "title": "ANACONDAS-TRAIL OF BLOOD",
+    "rating": "R",
+    "start": "2026-11-06T21:00:08+05:00",
+    "durationSeconds": 6310
+  },
+  {
+    "title": "THE SECRET GARDEN",
+    "rating": "G",
+    "start": "2026-11-06T22:45:18+05:00",
+    "durationSeconds": 7187
+  },
+  {
+    "title": "INSIDIOUS-THE RED DOOR",
+    "rating": "PG-13",
+    "start": "2026-11-07T00:45:05+05:00",
+    "durationSeconds": 7199
+  },
+  {
+    "title": "INCONCEIVABLE",
+    "rating": "R",
+    "start": "2026-11-07T02:45:04+05:00",
+    "durationSeconds": 7205
+  },
+  {
+    "title": "MOONLIGHT",
+    "rating": "R",
+    "start": "2026-11-07T04:45:09+05:00",
+    "durationSeconds": 7493
+  },
+  {
+    "title": "GRINGO",
+    "rating": "R",
+    "start": "2026-11-07T06:50:02+05:00",
+    "durationSeconds": 7499
+  },
+  {
+    "title": "ROBINSON CRUSOETHE WILD LIFE",
+    "rating": "PG",
+    "start": "2026-11-07T08:55:01+05:00",
+    "durationSeconds": 6599
+  },
+  {
+    "title": "UGLY DOLLS",
+    "rating": "PG",
+    "start": "2026-11-07T10:45:00+05:00",
+    "durationSeconds": 6300
+  },
+  {
+    "title": "THE UGLY TRUTH",
+    "rating": "R",
+    "start": "2026-11-07T12:30:00+05:00",
+    "durationSeconds": 6606
+  },
+  {
+    "title": "MADE IN ITALY",
+    "rating": "R",
+    "start": "2026-11-07T14:20:06+05:00",
+    "durationSeconds": 6941
+  },
+  {
+    "title": "DESTINATION WEDDING",
+    "rating": "R",
+    "start": "2026-11-07T16:15:47+05:00",
+    "durationSeconds": 6255
+  },
+  {
+    "title": "FALLING",
+    "rating": "R",
+    "start": "2026-11-07T18:00:02+05:00",
+    "durationSeconds": 7833
+  },
+  {
+    "title": "GRAN TURISMO-BASED ON A TRUE STORY",
+    "rating": "PG-13",
+    "start": "2026-11-07T20:10:35+05:00",
+    "durationSeconds": 8674
+  },
+  {
+    "title": "HEREDITARY",
+    "rating": "R",
+    "start": "2026-11-07T22:35:09+05:00",
+    "durationSeconds": 8698
+  },
+  {
+    "title": "THE CRAFT-LEGACY",
+    "rating": "PG-13",
+    "start": "2026-11-08T01:00:07+05:00",
+    "durationSeconds": 6308
+  },
+  {
+    "title": "DUMPLIN",
+    "rating": "PG-13",
+    "start": "2026-11-08T02:45:15+05:00",
+    "durationSeconds": 7531
+  },
+  {
+    "title": "THE PERSONAL HISTORY OF DAVID COPPERFIELD",
+    "rating": "PG",
+    "start": "2026-11-08T04:50:46+05:00",
+    "durationSeconds": 8397
+  },
+  {
+    "title": "THE LOST KING",
+    "rating": "PG-13",
+    "start": "2026-11-08T07:10:43+05:00",
+    "durationSeconds": 7510
+  },
+  {
+    "title": "EVERYBODY WANTS SOME",
+    "rating": "R",
+    "start": "2026-11-08T09:15:53+05:00",
+    "durationSeconds": 8092
+  },
+  {
+    "title": "THE HONEYMOON",
+    "rating": "R",
+    "start": "2026-11-08T11:30:45+05:00",
+    "durationSeconds": 7157
+  },
+  {
+    "title": "WE ARE YOUR FRIENDS",
+    "rating": "R",
+    "start": "2026-11-08T13:30:02+05:00",
+    "durationSeconds": 6631
+  },
+  {
+    "title": "MORBIUS",
+    "rating": "PG-13",
+    "start": "2026-11-08T15:20:33+05:00",
+    "durationSeconds": 7204
+  },
+  {
+    "title": "MONEYBALL",
+    "rating": "PG-13",
+    "start": "2026-11-08T17:20:37+05:00",
+    "durationSeconds": 8692
+  },
+  {
+    "title": "THE SECRET-DARE TO DREAM",
+    "rating": "PG",
+    "start": "2026-11-08T19:45:29+05:00",
+    "durationSeconds": 7217
+  },
+  {
+    "title": "EASY A",
+    "rating": "PG-13",
+    "start": "2026-11-08T21:45:46+05:00",
+    "durationSeconds": 6304
+  },
+  {
+    "title": "UNDERWORLD EVOLUTION",
+    "rating": "R",
+    "start": "2026-11-08T23:30:50+05:00",
+    "durationSeconds": 7198
+  },
+  {
+    "title": "THE PRINCE",
+    "rating": "R",
+    "start": "2026-11-09T01:30:48+05:00",
+    "durationSeconds": 6560
+  },
+  {
+    "title": "DON'T KNOCK TWICE",
+    "rating": "R",
+    "start": "2026-11-09T03:20:08+05:00",
+    "durationSeconds": 6918
+  },
+  {
+    "title": "MR. JONES",
+    "rating": "UA",
+    "start": "2026-11-09T05:15:26+05:00",
+    "durationSeconds": 8084
+  },
+  {
+    "title": "JOURNEY'S END",
+    "rating": "R",
+    "start": "2026-11-09T07:30:10+05:00",
+    "durationSeconds": 7203
+  },
+  {
+    "title": "MAGGIE'S PLAN",
+    "rating": "R",
+    "start": "2026-11-09T09:30:13+05:00",
+    "durationSeconds": 7219
+  },
+  {
+    "title": "PLUS ONE",
+    "rating": "PG-15",
+    "start": "2026-11-09T11:30:32+05:00",
+    "durationSeconds": 7218
+  },
+  {
+    "title": "THE PERFECT GUY",
+    "rating": "PG-13",
+    "start": "2026-11-09T13:30:50+05:00",
+    "durationSeconds": 6605
+  },
+  {
+    "title": "HITCH",
+    "rating": "PG-13",
+    "start": "2026-11-09T15:20:55+05:00",
+    "durationSeconds": 7747
+  },
+  {
+    "title": "THE LEGEND OF ZORRO",
+    "rating": "PG",
+    "start": "2026-11-09T17:30:02+05:00",
+    "durationSeconds": 8432
+  },
+  {
+    "title": "ANACONDA 3-OFFSPRING",
+    "rating": "R",
+    "start": "2026-11-09T19:50:34+05:00",
+    "durationSeconds": 6280
+  },
+  {
+    "title": "UNDERWORLD AWAKENING",
+    "rating": "R",
+    "start": "2026-11-09T21:35:14+05:00",
+    "durationSeconds": 6041
+  },
+  {
+    "title": "A BIGGER SPLASH",
+    "rating": "R",
+    "start": "2026-11-09T23:15:55+05:00",
+    "durationSeconds": 8977
+  },
+  {
+    "title": "WORTH",
+    "rating": "PG-13",
+    "start": "2026-11-10T01:45:32+05:00",
+    "durationSeconds": 8084
+  },
+  {
+    "title": "INTERSECTIONS",
+    "rating": "R",
+    "start": "2026-11-10T04:00:16+05:00",
+    "durationSeconds": 7196
+  },
+  {
+    "title": "TRUE HISTORY OF THE KELLY GANG",
+    "rating": "R",
+    "start": "2026-11-10T06:00:12+05:00",
+    "durationSeconds": 8416
+  },
+  {
+    "title": "ALAN PARTRIDGE",
+    "rating": "R",
+    "start": "2026-11-10T08:20:28+05:00",
+    "durationSeconds": 6599
+  },
+  {
+    "title": "PRECIOUS CARGO",
+    "rating": "R",
+    "start": "2026-11-10T10:10:27+05:00",
+    "durationSeconds": 6310
+  },
+  {
+    "title": "THE LAST SHIFT",
+    "rating": "R",
+    "start": "2026-11-10T11:55:37+05:00",
+    "durationSeconds": 6586
+  },
+  {
+    "title": "THE EXCEPTION",
+    "rating": "R",
+    "start": "2026-11-10T13:45:23+05:00",
+    "durationSeconds": 7500
+  },
+  {
+    "title": "AMERICAN WOMEN",
+    "rating": "R",
+    "start": "2026-11-10T15:50:23+05:00",
+    "durationSeconds": 7518
+  },
+  {
+    "title": "CHAPPIE",
+    "rating": "R",
+    "start": "2026-11-10T17:55:41+05:00",
+    "durationSeconds": 8091
+  },
+  {
+    "title": "MY SON",
+    "rating": "R",
+    "start": "2026-11-10T20:10:32+05:00",
+    "durationSeconds": 6590
+  },
+  {
+    "title": "LADY MACBETH",
+    "rating": "R",
+    "start": "2026-11-10T22:00:22+05:00",
+    "durationSeconds": 6335
+  },
+  {
+    "title": "UNDERWORLD-RISE OF THE LYCANS",
+    "rating": "R",
+    "start": "2026-11-10T23:45:57+05:00",
+    "durationSeconds": 6300
+  },
+  {
+    "title": "SECOND ACT",
+    "rating": "PG-13",
+    "start": "2026-11-11T01:30:57+05:00",
+    "durationSeconds": 7201
+  },
+  {
+    "title": "PERFECT ADDICTION",
+    "rating": "R",
+    "start": "2026-11-11T03:30:58+05:00",
+    "durationSeconds": 6577
+  },
+  {
+    "title": "THE MAURITANIAN",
+    "rating": "R",
+    "start": "2026-11-11T05:20:35+05:00",
+    "durationSeconds": 8704
+  },
+  {
+    "title": "ALL NIGHTER",
+    "rating": "R",
+    "start": "2026-11-11T07:45:39+05:00",
+    "durationSeconds": 6290
+  },
+  {
+    "title": "FALLING",
+    "rating": "R",
+    "start": "2026-11-11T09:30:29+05:00",
+    "durationSeconds": 8093
+  },
+  {
+    "title": "JULIE & JULIA",
+    "rating": "PG-13",
+    "start": "2026-11-11T11:45:22+05:00",
+    "durationSeconds": 8109
+  },
+  {
+    "title": "OUR FRIEND",
+    "rating": "R",
+    "start": "2026-11-11T14:00:31+05:00",
+    "durationSeconds": 8382
+  },
+  {
+    "title": "BAD MOMS",
+    "rating": "R",
+    "start": "2026-11-11T16:20:13+05:00",
+    "durationSeconds": 7211
+  },
+  {
+    "title": "THE COMMAND",
+    "rating": "PG-13",
+    "start": "2026-11-11T18:20:24+05:00",
+    "durationSeconds": 8087
+  },
+  {
+    "title": "BOOK CLUB",
+    "rating": "PG-13",
+    "start": "2026-11-11T20:35:11+05:00",
+    "durationSeconds": 7202
+  },
+  {
+    "title": "THE BOOK OF ELI",
+    "rating": "R",
+    "start": "2026-11-11T22:35:13+05:00",
+    "durationSeconds": 7826
+  },
+  {
+    "title": "PASSENGERS",
+    "rating": "PG-13",
+    "start": "2026-11-12T00:45:39+05:00",
+    "durationSeconds": 7473
+  },
+  {
+    "title": "ZOMBIELAND-DOUBLE TAP",
+    "rating": "R",
+    "start": "2026-11-12T02:50:12+05:00",
+    "durationSeconds": 6936
+  },
+  {
+    "title": "EVERYBODY WANTS SOME",
+    "rating": "R",
+    "start": "2026-11-12T04:45:48+05:00",
+    "durationSeconds": 8074
+  },
+  {
+    "title": "MAYBE I DO",
+    "rating": "PG-13",
+    "start": "2026-11-12T07:00:22+05:00",
+    "durationSeconds": 6590
+  },
+  {
+    "title": "HIGH STRUNG FREE DANCE",
+    "rating": "PG",
+    "start": "2026-11-12T08:50:12+05:00",
+    "durationSeconds": 7213
+  },
+  {
+    "title": "TRUMBO",
+    "rating": "R",
+    "start": "2026-11-12T10:50:25+05:00",
+    "durationSeconds": 8392
+  },
+  {
+    "title": "MOONLIGHT",
+    "rating": "R",
+    "start": "2026-11-12T13:10:17+05:00",
+    "durationSeconds": 7791
+  },
+  {
+    "title": "GRAN TURISMO-BASED ON A TRUE STORY",
+    "rating": "PG-13",
+    "start": "2026-11-12T15:20:08+05:00",
+    "durationSeconds": 8746
+  },
+  {
+    "title": "ORDINARY LOVE",
+    "rating": "R",
+    "start": "2026-11-12T17:45:54+05:00",
+    "durationSeconds": 6264
+  },
+  {
+    "title": "DREAM HORSE",
+    "rating": "PG",
+    "start": "2026-11-12T19:30:18+05:00",
+    "durationSeconds": 7492
+  },
+  {
+    "title": "THE CRAFT-LEGACY",
+    "rating": "PG-13",
+    "start": "2026-11-12T21:35:10+05:00",
+    "durationSeconds": 6301
+  },
+  {
+    "title": "SISU",
+    "rating": "R",
+    "start": "2026-11-12T23:20:11+05:00",
+    "durationSeconds": 6598
+  },
+  {
+    "title": "ANACONDAS-TRAIL OF BLOOD",
+    "rating": "R",
+    "start": "2026-11-13T01:10:09+05:00",
+    "durationSeconds": 6006
+  },
+  {
+    "title": "DESTINATION WEDDING",
+    "rating": "R",
+    "start": "2026-11-13T02:50:15+05:00",
+    "durationSeconds": 6296
+  },
+  {
+    "title": "MADE IN ITALY",
+    "rating": "R",
+    "start": "2026-11-13T04:35:11+05:00",
+    "durationSeconds": 6898
+  },
+  {
+    "title": "GRINGO",
+    "rating": "R",
+    "start": "2026-11-13T06:30:09+05:00",
+    "durationSeconds": 7500
+  },
+  {
+    "title": "THE BIG BAD FOX AND OTHER TALES",
+    "rating": "G",
+    "start": "2026-11-13T08:35:09+05:00",
+    "durationSeconds": 6008
+  },
+  {
+    "title": "THE SECRET-DARE TO DREAM",
+    "rating": "PG",
+    "start": "2026-11-13T10:15:17+05:00",
+    "durationSeconds": 7493
+  },
+  {
+    "title": "THE MITCHELLS VS THE MACHINES",
+    "rating": "PG",
+    "start": "2026-11-13T12:20:10+05:00",
+    "durationSeconds": 7212
+  },
+  {
+    "title": "A BAD MOMS CHRISTMAS",
+    "rating": "R",
+    "start": "2026-11-13T14:20:22+05:00",
+    "durationSeconds": 7191
+  },
+  {
+    "title": "THE UGLY TRUTH",
+    "rating": "R",
+    "start": "2026-11-13T16:20:13+05:00",
+    "durationSeconds": 6917
+  },
+  {
+    "title": "ELYSIUM",
+    "rating": "R",
+    "start": "2026-11-13T18:15:30+05:00",
+    "durationSeconds": 7500
+  },
+  {
+    "title": "INSIDIOUS-THE RED DOOR",
+    "rating": "PG-13",
+    "start": "2026-11-13T20:20:30+05:00",
+    "durationSeconds": 7196
+  },
+  {
+    "title": "THE INTRUDER",
+    "rating": "PG-13",
+    "start": "2026-11-13T22:20:26+05:00",
+    "durationSeconds": 6905
+  },
+  {
+    "title": "THE HONEYMOON",
+    "rating": "R",
+    "start": "2026-11-14T00:15:31+05:00",
+    "durationSeconds": 7184
+  },
+  {
+    "title": "LAKE PLACID VS. ANACONDA",
+    "rating": "NR",
+    "start": "2026-11-14T02:15:15+05:00",
+    "durationSeconds": 6304
+  },
+  {
+    "title": "THE LOST KING",
+    "rating": "PG-13",
+    "start": "2026-11-14T04:00:19+05:00",
+    "durationSeconds": 7789
+  },
+  {
+    "title": "DUMPLIN",
+    "rating": "PG-13",
+    "start": "2026-11-14T06:10:08+05:00",
+    "durationSeconds": 7501
+  },
+  {
+    "title": "THE PIRATES! BAND OF MISFITS",
+    "rating": "PG",
+    "start": "2026-11-14T08:15:09+05:00",
+    "durationSeconds": 6334
+  },
+  {
+    "title": "ROBINSON CRUSOETHE WILD LIFE",
+    "rating": "PG",
+    "start": "2026-11-14T10:00:43+05:00",
+    "durationSeconds": 6301
+  },
+  {
+    "title": "EASY A",
+    "rating": "PG-13",
+    "start": "2026-11-14T11:45:44+05:00",
+    "durationSeconds": 6269
+  },
+  {
+    "title": "THE PERSONAL HISTORY OF DAVID COPPERFIELD",
+    "rating": "PG",
+    "start": "2026-11-14T13:30:13+05:00",
+    "durationSeconds": 8092
+  },
+  {
+    "title": "WORTH",
+    "rating": "PG-13",
+    "start": "2026-11-14T15:45:05+05:00",
+    "durationSeconds": 8110
+  },
+  {
+    "title": "ON CHESIL BEACH",
+    "rating": "R",
+    "start": "2026-11-14T18:00:15+05:00",
+    "durationSeconds": 7822
+  },
+  {
+    "title": "MONEYBALL",
+    "rating": "PG-13",
+    "start": "2026-11-14T20:10:37+05:00",
+    "durationSeconds": 9007
+  },
+  {
+    "title": "UNDERWORLD AWAKENING",
+    "rating": "R",
+    "start": "2026-11-14T22:40:44+05:00",
+    "durationSeconds": 5975
+  },
+  {
+    "title": "YOU WERE NEVER REALLY HERE",
+    "rating": "R",
+    "start": "2026-11-15T00:20:19+05:00",
+    "durationSeconds": 6030
+  },
+  {
+    "title": "HEREDITARY",
+    "rating": "R",
+    "start": "2026-11-15T02:00:49+05:00",
+    "durationSeconds": 8987
+  },
+  {
+    "title": "BAD MOMS",
+    "rating": "R",
+    "start": "2026-11-15T04:30:36+05:00",
+    "durationSeconds": 7183
+  },
+  {
+    "title": "PLUS ONE",
+    "rating": "PG-15",
+    "start": "2026-11-15T06:30:19+05:00",
+    "durationSeconds": 7217
+  },
+  {
+    "title": "WE ARE YOUR FRIENDS",
+    "rating": "R",
+    "start": "2026-11-15T08:30:36+05:00",
+    "durationSeconds": 6591
+  },
+  {
+    "title": "LADY MACBETH",
+    "rating": "R",
+    "start": "2026-11-15T10:20:27+05:00",
+    "durationSeconds": 6624
+  },
+  {
+    "title": "TRUE HISTORY OF THE KELLY GANG",
+    "rating": "R",
+    "start": "2026-11-15T12:10:51+05:00",
+    "durationSeconds": 8395
+  },
+  {
+    "title": "PRECIOUS CARGO",
+    "rating": "R",
+    "start": "2026-11-15T14:30:46+05:00",
+    "durationSeconds": 6265
+  },
+  {
+    "title": "CHAPPIE",
+    "rating": "R",
+    "start": "2026-11-15T16:15:11+05:00",
+    "durationSeconds": 8133
+  },
+  {
+    "title": "HITCH",
+    "rating": "PG-13",
+    "start": "2026-11-15T18:30:44+05:00",
+    "durationSeconds": 8065
+  },
+  {
+    "title": "MORBIUS",
+    "rating": "PG-13",
+    "start": "2026-11-15T20:45:09+05:00",
+    "durationSeconds": 7215
+  },
+  {
+    "title": "INCONCEIVABLE",
+    "rating": "R",
+    "start": "2026-11-15T22:45:24+05:00",
+    "durationSeconds": 7182
+  },
+  {
+    "title": "UNDERWORLD EVOLUTION",
+    "rating": "R",
+    "start": "2026-11-16T00:45:06+05:00",
+    "durationSeconds": 7240
+  },
+  {
+    "title": "SCARY STORIES TO TELL IN THE DARK",
+    "rating": "PG-13",
+    "start": "2026-11-16T02:45:46+05:00",
+    "durationSeconds": 7480
+  },
+  {
+    "title": "THE EXCEPTION",
+    "rating": "R",
+    "start": "2026-11-16T04:50:26+05:00",
+    "durationSeconds": 7823
+  },
+  {
+    "title": "SECOND ACT",
+    "rating": "PG-13",
+    "start": "2026-11-16T07:00:49+05:00",
+    "durationSeconds": 7196
+  },
+  {
+    "title": "MR. JONES",
+    "rating": "UA",
+    "start": "2026-11-16T09:00:45+05:00",
+    "durationSeconds": 8092
+  },
+  {
+    "title": "FALLING",
+    "rating": "R",
+    "start": "2026-11-16T11:15:37+05:00",
+    "durationSeconds": 8083
+  },
+  {
+    "title": "EVERYBODY WANTS SOME",
+    "rating": "R",
+    "start": "2026-11-16T13:30:20+05:00",
+    "durationSeconds": 8109
+  },
+  {
+    "title": "PERFECT ADDICTION",
+    "rating": "R",
+    "start": "2026-11-16T15:45:29+05:00",
+    "durationSeconds": 7214
+  },
+  {
+    "title": "JULIE & JULIA",
+    "rating": "PG-13",
+    "start": "2026-11-16T17:45:43+05:00",
+    "durationSeconds": 8088
+  },
+  {
+    "title": "THE PRINCE",
+    "rating": "R",
+    "start": "2026-11-16T20:00:31+05:00",
+    "durationSeconds": 6300
+  },
+  {
+    "title": "THE LEGEND OF ZORRO",
+    "rating": "PG",
+    "start": "2026-11-16T21:45:31+05:00",
+    "durationSeconds": 8684
+  },
+  {
+    "title": "INTERSECTIONS",
+    "rating": "R",
+    "start": "2026-11-17T00:10:15+05:00",
+    "durationSeconds": 7212
+  },
+  {
+    "title": "AMERICAN WOMEN",
+    "rating": "R",
+    "start": "2026-11-17T02:10:27+05:00",
+    "durationSeconds": 7486
+  },
+  {
+    "title": "A BAD MOMS CHRISTMAS",
+    "rating": "R",
+    "start": "2026-11-17T04:15:13+05:00",
+    "durationSeconds": 7212
+  },
+  {
+    "title": "THE MAURITANIAN",
+    "rating": "R",
+    "start": "2026-11-17T06:15:25+05:00",
+    "durationSeconds": 9012
+  },
+  {
+    "title": "MAGGIE'S PLAN",
+    "rating": "R",
+    "start": "2026-11-17T08:45:37+05:00",
+    "durationSeconds": 7167
+  },
+  {
+    "title": "DREAM HORSE",
+    "rating": "PG",
+    "start": "2026-11-17T10:45:04+05:00",
+    "durationSeconds": 7506
+  },
+  {
+    "title": "JOURNEY'S END",
+    "rating": "R",
+    "start": "2026-11-17T12:50:10+05:00",
+    "durationSeconds": 7203
+  },
+  {
+    "title": "ALAN PARTRIDGE",
+    "rating": "R",
+    "start": "2026-11-17T14:50:13+05:00",
+    "durationSeconds": 6307
+  },
+  {
+    "title": "SISU",
+    "rating": "R",
+    "start": "2026-11-17T16:35:20+05:00",
+    "durationSeconds": 6032
+  },
+  {
+    "title": "THE COMMAND",
+    "rating": "PG-13",
+    "start": "2026-11-17T18:15:52+05:00",
+    "durationSeconds": 8097
+  },
+  {
+    "title": "PASSENGERS",
+    "rating": "PG-13",
+    "start": "2026-11-17T20:30:49+05:00",
+    "durationSeconds": 8082
+  },
+  {
+    "title": "DON'T KNOCK TWICE",
+    "rating": "R",
+    "start": "2026-11-17T22:45:31+05:00",
+    "durationSeconds": 6603
+  },
+  {
+    "title": "UNDERWORLD-RISE OF THE LYCANS",
+    "rating": "R",
+    "start": "2026-11-18T00:35:34+05:00",
+    "durationSeconds": 6300
+  },
+  {
+    "title": "THE SECRET GARDEN",
+    "rating": "G",
+    "start": "2026-11-18T02:20:34+05:00",
+    "durationSeconds": 6870
+  },
+  {
+    "title": "BOOK CLUB",
+    "rating": "PG-13",
+    "start": "2026-11-18T04:15:04+05:00",
+    "durationSeconds": 7241
+  },
+  {
+    "title": "MADE IN ITALY",
+    "rating": "R",
+    "start": "2026-11-18T06:15:45+05:00",
+    "durationSeconds": 6900
+  },
+  {
+    "title": "ORDINARY LOVE",
+    "rating": "R",
+    "start": "2026-11-18T08:10:45+05:00",
+    "durationSeconds": 6569
+  },
+  {
+    "title": "ALL NIGHTER",
+    "rating": "R",
+    "start": "2026-11-18T10:00:14+05:00",
+    "durationSeconds": 6310
+  },
+  {
+    "title": "THE LAST SHIFT",
+    "rating": "R",
+    "start": "2026-11-18T11:45:24+05:00",
+    "durationSeconds": 6325
+  },
+  {
+    "title": "LADY MACBETH",
+    "rating": "R",
+    "start": "2026-11-18T13:30:49+05:00",
+    "durationSeconds": 6286
+  },
+  {
+    "title": "GRINGO",
+    "rating": "R",
+    "start": "2026-11-18T15:15:35+05:00",
+    "durationSeconds": 7478
+  },
+  {
+    "title": "DESTINATION WEDDING",
+    "rating": "R",
+    "start": "2026-11-18T17:20:13+05:00",
+    "durationSeconds": 6032
+  },
+  {
+    "title": "THE INTRUDER",
+    "rating": "PG-13",
+    "start": "2026-11-18T19:00:45+05:00",
+    "durationSeconds": 6589
+  },
+  {
+    "title": "GRAN TURISMO-BASED ON A TRUE STORY",
+    "rating": "PG-13",
+    "start": "2026-11-18T20:50:34+05:00",
+    "durationSeconds": 8677
+  },
+  {
+    "title": "MAYBE I DO",
+    "rating": "PG-13",
+    "start": "2026-11-18T23:15:11+05:00",
+    "durationSeconds": 6918
+  },
+  {
+    "title": "THE CRAFT-LEGACY",
+    "rating": "PG-13",
+    "start": "2026-11-19T01:10:29+05:00",
+    "durationSeconds": 6582
+  },
+  {
+    "title": "THE PERSONAL HISTORY OF DAVID COPPERFIELD",
+    "rating": "PG",
+    "start": "2026-11-19T03:00:11+05:00",
+    "durationSeconds": 8124
+  },
+  {
+    "title": "DUMPLIN",
+    "rating": "PG-13",
+    "start": "2026-11-19T05:15:35+05:00",
+    "durationSeconds": 7498
+  },
+  {
+    "title": "TRUMBO",
+    "rating": "R",
+    "start": "2026-11-19T07:20:33+05:00",
+    "durationSeconds": 8692
+  },
+  {
+    "title": "THE SECRET-DARE TO DREAM",
+    "rating": "PG",
+    "start": "2026-11-19T09:45:25+05:00",
+    "durationSeconds": 7489
+  },
+  {
+    "title": "TRUE HISTORY OF THE KELLY GANG",
+    "rating": "R",
+    "start": "2026-11-19T11:50:14+05:00",
+    "durationSeconds": 8698
+  },
+  {
+    "title": "MONEYBALL",
+    "rating": "PG-13",
+    "start": "2026-11-19T14:15:12+05:00",
+    "durationSeconds": 8999
+  },
+  {
+    "title": "PLUS ONE",
+    "rating": "PG-15",
+    "start": "2026-11-19T16:45:11+05:00",
+    "durationSeconds": 7198
+  },
+  {
+    "title": "BAD MOMS",
+    "rating": "R",
+    "start": "2026-11-19T18:45:09+05:00",
+    "durationSeconds": 7199
+  },
+  {
+    "title": "THE UGLY TRUTH",
+    "rating": "R",
+    "start": "2026-11-19T20:45:08+05:00",
+    "durationSeconds": 7202
+  },
+  {
+    "title": "THE PERFECT GUY",
+    "rating": "PG-13",
+    "start": "2026-11-19T22:45:10+05:00",
+    "durationSeconds": 7218
+  },
+  {
+    "title": "THE BOOK OF ELI",
+    "rating": "R",
+    "start": "2026-11-20T00:45:28+05:00",
+    "durationSeconds": 7482
+  },
+  {
+    "title": "ANACONDA 3-OFFSPRING",
+    "rating": "R",
+    "start": "2026-11-20T02:50:10+05:00",
+    "durationSeconds": 6301
+  },
+  {
+    "title": "OUR FRIEND",
+    "rating": "R",
+    "start": "2026-11-20T04:35:11+05:00",
+    "durationSeconds": 8697
+  },
+  {
+    "title": "THE LOST KING",
+    "rating": "PG-13",
+    "start": "2026-11-20T07:00:08+05:00",
+    "durationSeconds": 7801
+  },
+  {
+    "title": "UGLY DOLLS",
+    "rating": "PG",
+    "start": "2026-11-20T09:10:09+05:00",
+    "durationSeconds": 6599
+  },
+  {
+    "title": "THE BIG BAD FOX AND OTHER TALES",
+    "rating": "G",
+    "start": "2026-11-20T11:00:08+05:00",
+    "durationSeconds": 6302
+  },
+  {
+    "title": "HITCH",
+    "rating": "PG-13",
+    "start": "2026-11-20T12:45:10+05:00",
+    "durationSeconds": 7795
+  },
+  {
+    "title": "INSIDIOUS-THE RED DOOR",
+    "rating": "PG-13",
+    "start": "2026-11-20T14:55:05+05:00",
+    "durationSeconds": 7511
+  },
+  {
+    "title": "MOONLIGHT",
+    "rating": "R",
+    "start": "2026-11-20T17:00:16+05:00",
+    "durationSeconds": 8110
+  },
+  {
+    "title": "ELYSIUM",
+    "rating": "R",
+    "start": "2026-11-20T19:15:26+05:00",
+    "durationSeconds": 7505
+  },
+  {
+    "title": "CHAPPIE",
+    "rating": "R",
+    "start": "2026-11-20T21:20:31+05:00",
+    "durationSeconds": 7806
+  },
+  {
+    "title": "HIGH STRUNG FREE DANCE",
+    "rating": "PG",
+    "start": "2026-11-20T23:30:37+05:00",
+    "durationSeconds": 7174
+  },
+  {
+    "title": "A BIGGER SPLASH",
+    "rating": "R",
+    "start": "2026-11-21T01:30:11+05:00",
+    "durationSeconds": 8414
+  },
+  {
+    "title": "UNDERWORLD EVOLUTION",
+    "rating": "R",
+    "start": "2026-11-21T03:50:25+05:00",
+    "durationSeconds": 7214
+  },
+  {
+    "title": "WORTH",
+    "rating": "PG-13",
+    "start": "2026-11-21T05:50:39+05:00",
+    "durationSeconds": 7780
+  },
+  {
+    "title": "THE MITCHELLS VS THE MACHINES",
+    "rating": "PG",
+    "start": "2026-11-21T08:00:19+05:00",
+    "durationSeconds": 7226
+  },
+  {
+    "title": "THE PIRATES! BAND OF MISFITS",
+    "rating": "PG",
+    "start": "2026-11-21T10:00:45+05:00",
+    "durationSeconds": 6301
+  },
+  {
+    "title": "THE HONEYMOON",
+    "rating": "R",
+    "start": "2026-11-21T11:45:46+05:00",
+    "durationSeconds": 7168
+  },
+  {
+    "title": "MY SON",
+    "rating": "R",
+    "start": "2026-11-21T13:45:14+05:00",
+    "durationSeconds": 6598
+  },
+  {
+    "title": "EVERYBODY WANTS SOME",
+    "rating": "R",
+    "start": "2026-11-21T15:35:12+05:00",
+    "durationSeconds": 7813
+  },
+  {
+    "title": "EASY A",
+    "rating": "PG-13",
+    "start": "2026-11-21T17:45:25+05:00",
+    "durationSeconds": 6300
+  },
+  {
+    "title": "LAKE PLACID VS. ANACONDA",
+    "rating": "NR",
+    "start": "2026-11-21T19:30:25+05:00",
+    "durationSeconds": 6295
+  },
+  {
+    "title": "MORBIUS",
+    "rating": "PG-13",
+    "start": "2026-11-21T21:15:20+05:00",
+    "durationSeconds": 7206
+  },
+  {
+    "title": "LILA & EVE",
+    "rating": "R",
+    "start": "2026-11-21T23:15:26+05:00",
+    "durationSeconds": 6898
+  },
+  {
+    "title": "FALLING",
+    "rating": "R",
+    "start": "2026-11-22T01:10:24+05:00",
+    "durationSeconds": 7483
+  },
+  {
+    "title": "PERFECT ADDICTION",
+    "rating": "R",
+    "start": "2026-11-22T03:15:07+05:00",
+    "durationSeconds": 7200
+  },
+  {
+    "title": "ON CHESIL BEACH",
+    "rating": "R",
+    "start": "2026-11-22T05:15:07+05:00",
+    "durationSeconds": 7505
+  },
+  {
+    "title": "TRUE HISTORY OF THE KELLY GANG",
+    "rating": "R",
+    "start": "2026-11-22T07:20:12+05:00",
+    "durationSeconds": 8701
+  },
+  {
+    "title": "ALL NIGHTER",
+    "rating": "R",
+    "start": "2026-11-22T09:45:13+05:00",
+    "durationSeconds": 6303
+  },
+  {
+    "title": "A BAD MOMS CHRISTMAS",
+    "rating": "R",
+    "start": "2026-11-22T11:30:16+05:00",
+    "durationSeconds": 7200
+  },
+  {
+    "title": "JULIE & JULIA",
+    "rating": "PG",
+    "start": "2026-11-22T13:30:16+05:00",
+    "durationSeconds": 8095
+  },
+  {
+    "title": "THE EXCEPTION",
+    "rating": "R",
+    "start": "2026-11-22T15:45:11+05:00",
+    "durationSeconds": 7495
+  },
+  {
+    "title": "THE LEGEND OF ZORRO",
+    "rating": "PG",
+    "start": "2026-11-22T17:50:06+05:00",
+    "durationSeconds": 8705
+  },
+  {
+    "title": "DREAM HORSE",
+    "rating": "PG",
+    "start": "2026-11-22T20:15:11+05:00",
+    "durationSeconds": 7506
+  },
+  {
+    "title": "ZOMBIELAND-DOUBLE TAP",
+    "rating": "R",
+    "start": "2026-11-22T22:20:17+05:00",
+    "durationSeconds": 6597
+  },
+  {
+    "title": "UNDERWORLD AWAKENING",
+    "rating": "R",
+    "start": "2026-11-23T00:10:14+05:00",
+    "durationSeconds": 6017
+  },
+  {
+    "title": "AMERICAN WOMEN",
+    "rating": "R",
+    "start": "2026-11-23T01:50:31+05:00",
+    "durationSeconds": 7206
+  },
+  {
+    "title": "SECOND ACT",
+    "rating": "PG-13",
+    "start": "2026-11-23T03:50:37+05:00",
+    "durationSeconds": 7199
+  },
+  {
+    "title": "ORDINARY LOVE",
+    "rating": "R",
+    "start": "2026-11-23T05:50:36+05:00",
+    "durationSeconds": 6880
+  },
+  {
+    "title": "MR. JONES",
+    "rating": "UA",
+    "start": "2026-11-23T07:45:16+05:00",
+    "durationSeconds": 8129
+  },
+  {
+    "title": "GRINGO",
+    "rating": "R",
+    "start": "2026-11-23T10:00:45+05:00",
+    "durationSeconds": 7166
+  },
+  {
+    "title": "PASSENGERS",
+    "rating": "PG-13",
+    "start": "2026-11-23T12:00:11+05:00",
+    "durationSeconds": 7803
+  },
+  {
+    "title": "BOOK CLUB",
+    "rating": "PG-13",
+    "start": "2026-11-23T14:10:14+05:00",
+    "durationSeconds": 7200
+  },
+  {
+    "title": "THE MAURITANIAN",
+    "rating": "R",
+    "start": "2026-11-23T16:10:14+05:00",
+    "durationSeconds": 8691
+  },
+  {
+    "title": "WE ARE YOUR FRIENDS",
+    "rating": "R",
+    "start": "2026-11-23T18:35:05+05:00",
+    "durationSeconds": 6909
+  },
+  {
+    "title": "THE LAST SHIFT",
+    "rating": "R",
+    "start": "2026-11-23T20:30:14+05:00",
+    "durationSeconds": 6296
+  },
+  {
+    "title": "SISU",
+    "rating": "R",
+    "start": "2026-11-23T22:15:10+05:00",
+    "durationSeconds": 6297
+  },
+  {
+    "title": "SCARY STORIES TO TELL IN THE DARK",
+    "rating": "PG-13",
+    "start": "2026-11-24T00:00:07+05:00",
+    "durationSeconds": 7828
+  },
+  {
+    "title": "THE INTRUDER",
+    "rating": "PG-13",
+    "start": "2026-11-24T02:10:35+05:00",
+    "durationSeconds": 7182
+  },
+  {
+    "title": "UNDERWORLD-RISE OF THE LYCANS",
+    "rating": "R",
+    "start": "2026-11-24T04:10:17+05:00",
+    "durationSeconds": 6594
+  },
+  {
+    "title": "LADY MACBETH",
+    "rating": "R",
+    "start": "2026-11-24T06:00:11+05:00",
+    "durationSeconds": 6295
+  },
+  {
+    "title": "OUR FRIEND",
+    "rating": "R",
+    "start": "2026-11-24T07:45:06+05:00",
+    "durationSeconds": 8703
+  },
+  {
+    "title": "PLUS ONE",
+    "rating": "PG-15",
+    "start": "2026-11-24T10:10:09+05:00",
+    "durationSeconds": 7243
+  },
+  {
+    "title": "DUMPLIN",
+    "rating": "PG-13",
+    "start": "2026-11-24T12:10:52+05:00",
+    "durationSeconds": 7460
+  },
+  {
+    "title": "GRAN TURISMO-BASED ON A TRUE STORY",
+    "rating": "PG-13",
+    "start": "2026-11-24T14:15:12+05:00",
+    "durationSeconds": 8998
+  },
+  {
+    "title": "MAGGIE'S PLAN",
+    "rating": "R",
+    "start": "2026-11-24T16:45:10+05:00",
+    "durationSeconds": 7204
+  },
+  {
+    "title": "JOURNEY'S END",
+    "rating": "R",
+    "start": "2026-11-24T18:45:14+05:00",
+    "durationSeconds": 7501
+  },
+  {
+    "title": "MONEYBALL",
+    "rating": "PG-13",
+    "start": "2026-11-24T20:50:15+05:00",
+    "durationSeconds": 8701
+  },
+  {
+    "title": "ANACONDA 3-OFFSPRING",
+    "rating": "R",
+    "start": "2026-11-24T23:15:16+05:00",
+    "durationSeconds": 6330
+  },
+  {
+    "title": "MAYBE I DO",
+    "rating": "PG-13",
+    "start": "2026-11-25T01:00:46+05:00",
+    "durationSeconds": 6570
+  },
+  {
+    "title": "HEREDITARY",
+    "rating": "R",
+    "start": "2026-11-25T02:50:16+05:00",
+    "durationSeconds": 8701
+  },
+  {
+    "title": "INCONCEIVABLE",
+    "rating": "R",
+    "start": "2026-11-25T05:15:17+05:00",
+    "durationSeconds": 7502
+  },
+  {
+    "title": "PRECIOUS CARGO",
+    "rating": "R",
+    "start": "2026-11-25T07:20:19+05:00",
+    "durationSeconds": 6307
+  },
+  {
+    "title": "MOONLIGHT",
+    "rating": "R",
+    "start": "2026-11-25T09:05:26+05:00",
+    "durationSeconds": 7788
+  },
+  {
+    "title": "DESTINATION WEDDING",
+    "rating": "R",
+    "start": "2026-11-25T11:15:14+05:00",
+    "durationSeconds": 6297
+  },
+  {
+    "title": "THE LOST KING",
+    "rating": "PG-13",
+    "start": "2026-11-25T13:00:11+05:00",
+    "durationSeconds": 7803
+  },
+  {
+    "title": "MADE IN ITALY",
+    "rating": "R",
+    "start": "2026-11-25T15:10:14+05:00",
+    "durationSeconds": 6597
+  },
+  {
+    "title": "THE SECRET GARDEN",
+    "rating": "G",
+    "start": "2026-11-25T17:00:11+05:00",
+    "durationSeconds": 7240
+  },
+  {
+    "title": "THE COMMAND",
+    "rating": "PG-13",
+    "start": "2026-11-25T19:00:51+05:00",
+    "durationSeconds": 8079
+  },
+  {
+    "title": "ALAN PARTRIDGE",
+    "rating": "R",
+    "start": "2026-11-25T21:15:30+05:00",
+    "durationSeconds": 6295
+  },
+  {
+    "title": "LAKE PLACID VS. ANACONDA",
+    "rating": "NR",
+    "start": "2026-11-25T23:00:25+05:00",
+    "durationSeconds": 6310
+  },
+  {
+    "title": "THE BOOK OF ELI",
+    "rating": "R",
+    "start": "2026-11-26T00:45:35+05:00",
+    "durationSeconds": 7780
+  },
+  {
+    "title": "THE UGLY TRUTH",
+    "rating": "R",
+    "start": "2026-11-26T02:55:15+05:00",
+    "durationSeconds": 6603
+  },
+  {
+    "title": "THE PRINCE",
+    "rating": "R",
+    "start": "2026-11-26T04:45:18+05:00",
+    "durationSeconds": 6316
+  },
+  {
+    "title": "YOU WERE NEVER REALLY HERE",
+    "rating": "R",
+    "start": "2026-11-26T06:30:34+05:00",
+    "durationSeconds": 6292
+  },
+  {
+    "title": "TRUE HISTORY OF THE KELLY GANG",
+    "rating": "R",
+    "start": "2026-11-26T08:15:26+05:00",
+    "durationSeconds": 8995
+  },
+  {
+    "title": "BAD MOMS",
+    "rating": "R",
+    "start": "2026-11-26T10:45:21+05:00",
+    "durationSeconds": 7207
+  },
+  {
+    "title": "THE MAURITANIAN",
+    "rating": "R",
+    "start": "2026-11-26T12:45:28+05:00",
+    "durationSeconds": 8988
+  },
+  {
+    "title": "WORTH",
+    "rating": "PG-13",
+    "start": "2026-11-26T15:15:16+05:00",
+    "durationSeconds": 8111
+  },
+  {
+    "title": "THE PERSONAL HISTORY OF DAVID COPPERFIELD",
+    "rating": "PG",
+    "start": "2026-11-26T17:30:27+05:00",
+    "durationSeconds": 8085
+  },
+  {
+    "title": "FALLING",
+    "rating": "R",
+    "start": "2026-11-26T19:45:12+05:00",
+    "durationSeconds": 8099
+  },
+  {
+    "title": "HITCH",
+    "rating": "PG-13",
+    "start": "2026-11-26T22:00:11+05:00",
+    "durationSeconds": 8100
+  },
+  {
+    "title": "GRINGO",
+    "rating": "R",
+    "start": "2026-11-27T00:15:11+05:00",
+    "durationSeconds": 7209
+  },
+  {
+    "title": "THE CRAFT-LEGACY",
+    "rating": "PG-13",
+    "start": "2026-11-27T02:15:20+05:00",
+    "durationSeconds": 6292
+  },
+  {
+    "title": "CHAPPIE",
+    "rating": "R",
+    "start": "2026-11-27T04:00:12+05:00",
+    "durationSeconds": 8108
+  },
+  {
+    "title": "THE HONEYMOON",
+    "rating": "R",
+    "start": "2026-11-27T06:15:20+05:00",
+    "durationSeconds": 7213
+  },
+  {
+    "title": "ROBINSON CRUSOETHE WILD LIFE",
+    "rating": "PG",
+    "start": "2026-11-27T08:15:33+05:00",
+    "durationSeconds": 6277
+  },
+  {
+    "title": "UGLY DOLLS",
+    "rating": "PG",
+    "start": "2026-11-27T10:00:10+05:00",
+    "durationSeconds": 6328
+  },
+  {
+    "title": "PERFECT ADDICTION",
+    "rating": "R",
+    "start": "2026-11-27T11:45:38+05:00",
+    "durationSeconds": 7168
+  },
+  {
+    "title": "ON CHESIL BEACH",
+    "rating": "R",
+    "start": "2026-11-27T13:45:06+05:00",
+    "durationSeconds": 7504
+  },
+  {
+    "title": "EASY A",
+    "rating": "PG-13",
+    "start": "2026-11-27T15:50:10+05:00",
+    "durationSeconds": 6327
+  },
+  {
+    "title": "ZOMBIELAND-DOUBLE TAP",
+    "rating": "R",
+    "start": "2026-11-27T17:35:37+05:00",
+    "durationSeconds": 6868
+  },
+  {
+    "title": "INTERSECTIONS",
+    "rating": "R",
+    "start": "2026-11-27T19:30:05+05:00",
+    "durationSeconds": 7205
+  },
+  {
+    "title": "MY SON",
+    "rating": "R",
+    "start": "2026-11-27T21:30:10+05:00",
+    "durationSeconds": 6602
+  },
+  {
+    "title": "DON'T KNOCK TWICE",
+    "rating": "R",
+    "start": "2026-11-27T23:20:12+05:00",
+    "durationSeconds": 6909
+  },
+  {
+    "title": "THE PERFECT GUY",
+    "rating": "PG-13",
+    "start": "2026-11-28T01:15:21+05:00",
+    "durationSeconds": 7186
+  },
+  {
+    "title": "TRUMBO",
+    "rating": "R",
+    "start": "2026-11-28T03:15:07+05:00",
+    "durationSeconds": 8411
+  },
+  {
+    "title": "LADY MACBETH",
+    "rating": "R",
+    "start": "2026-11-28T05:35:18+05:00",
+    "durationSeconds": 6296
+  },
+  {
+    "title": "THE BIG BAD FOX AND OTHER TALES",
+    "rating": "G",
+    "start": "2026-11-28T07:20:14+05:00",
+    "durationSeconds": 6005
+  },
+  {
+    "title": "THE MITCHELLS VS THE MACHINES",
+    "rating": "PG",
+    "start": "2026-11-28T09:00:19+05:00",
+    "durationSeconds": 7191
+  },
+  {
+    "title": "DREAM HORSE",
+    "rating": "PG",
+    "start": "2026-11-28T11:00:10+05:00",
+    "durationSeconds": 7828
+  },
+  {
+    "title": "EVERYBODY WANTS SOME",
+    "rating": "R",
+    "start": "2026-11-28T13:10:38+05:00",
+    "durationSeconds": 7790
+  },
+  {
+    "title": "A BIGGER SPLASH",
+    "rating": "R",
+    "start": "2026-11-28T15:20:28+05:00",
+    "durationSeconds": 8693
+  },
+  {
+    "title": "JULIE & JULIA",
+    "rating": "PG-13",
+    "start": "2026-11-28T17:45:21+05:00",
+    "durationSeconds": 8101
+  },
+  {
+    "title": "ANACONDAS-TRAIL OF BLOOD",
+    "rating": "R",
+    "start": "2026-11-28T20:00:22+05:00",
+    "durationSeconds": 6287
+  },
+  {
+    "title": "PLUS ONE",
+    "rating": "PG-15",
+    "start": "2026-11-28T21:45:09+05:00",
+    "durationSeconds": 7202
+  },
+  {
+    "title": "ELYSIUM",
+    "rating": "R",
+    "start": "2026-11-28T23:45:11+05:00",
+    "durationSeconds": 8101
+  },
+  {
+    "title": "SCARY STORIES TO TELL IN THE DARK",
+    "rating": "PG-13",
+    "start": "2026-11-29T02:00:12+05:00",
+    "durationSeconds": 7793
+  },
+  {
+    "title": "ALL NIGHTER",
+    "rating": "R",
+    "start": "2026-11-29T04:10:05+05:00",
+    "durationSeconds": 6025
+  },
+  {
+    "title": "WE ARE YOUR FRIENDS",
+    "rating": "R",
+    "start": "2026-11-29T05:50:30+05:00",
+    "durationSeconds": 6881
+  },
+  {
+    "title": "A BAD MOMS CHRISTMAS",
+    "rating": "R",
+    "start": "2026-11-29T07:45:11+05:00",
+    "durationSeconds": 7247
+  },
+  {
+    "title": "OUR FRIEND",
+    "rating": "R",
+    "start": "2026-11-29T09:45:58+05:00",
+    "durationSeconds": 8659
+  },
+  {
+    "title": "THE EXCEPTION",
+    "rating": "R",
+    "start": "2026-11-29T12:10:17+05:00",
+    "durationSeconds": 7507
+  },
+  {
+    "title": "MONEYBALL",
+    "rating": "PG-13",
+    "start": "2026-11-29T14:15:24+05:00",
+    "durationSeconds": 9013
+  },
+  {
+    "title": "THE SECRET-DARE TO DREAM",
+    "rating": "PG",
+    "start": "2026-11-29T16:45:37+05:00",
+    "durationSeconds": 7484
+  },
+  {
+    "title": "SISU",
+    "rating": "R",
+    "start": "2026-11-29T18:50:21+05:00",
+    "durationSeconds": 6311
+  },
+  {
+    "title": "INSIDIOUS-THE RED DOOR",
+    "rating": "PG-13",
+    "start": "2026-11-29T20:35:32+05:00",
+    "durationSeconds": 7204
+  },
+  {
+    "title": "THE PERSONAL HISTORY OF DAVID COPPERFIELD",
+    "rating": "PG",
+    "start": "2026-11-29T22:35:36+05:00",
+    "durationSeconds": 8115
+  },
+  {
+    "title": "GRAN TURISMO-BASED ON A TRUE STORY",
+    "rating": "PG-13",
+    "start": "2026-11-30T00:50:51+05:00",
+    "durationSeconds": 8669
+  },
+  {
+    "title": "LILA & EVE",
+    "rating": "R",
+    "start": "2026-11-30T03:15:20+05:00",
+    "durationSeconds": 7205
+  },
+  {
+    "title": "THE LAST SHIFT",
+    "rating": "R",
+    "start": "2026-11-30T05:15:25+05:00",
+    "durationSeconds": 6307
+  },
+  {
+    "title": "MAYBE I DO",
+    "rating": "PG-13",
+    "start": "2026-11-30T07:00:32+05:00",
+    "durationSeconds": 6590
+  },
+  {
+    "title": "BOOK CLUB",
+    "rating": "PG-13",
+    "start": "2026-11-30T08:50:22+05:00",
+    "durationSeconds": 7198
+  },
+  {
+    "title": "SECOND ACT",
+    "rating": "PG-13",
+    "start": "2026-11-30T10:50:20+05:00",
+    "durationSeconds": 7208
+  },
+  {
+    "title": "ORDINARY LOVE",
+    "rating": "R",
+    "start": "2026-11-30T12:50:28+05:00",
+    "durationSeconds": 6888
+  },
+  {
+    "title": "THE UGLY TRUTH",
+    "rating": "R",
+    "start": "2026-11-30T14:45:16+05:00",
+    "durationSeconds": 6615
+  },
+  {
+    "title": "HIGH STRUNG FREE DANCE",
+    "rating": "PG",
+    "start": "2026-11-30T16:35:31+05:00",
+    "durationSeconds": 7202
+  },
+  {
+    "title": "CHAPPIE",
+    "rating": "R",
+    "start": "2026-11-30T18:35:33+05:00",
+    "durationSeconds": 7793
+  },
+  {
+    "title": "DESTINATION WEDDING",
+    "rating": "R",
+    "start": "2026-11-30T20:45:26+05:00",
+    "durationSeconds": null
+  }
 ]
