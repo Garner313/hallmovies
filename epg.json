@@ -2984,7 +2984,7 @@
     "start": "2026-11-15T22:45:24",
     "durationSeconds": 5400
   },
-  [
+  
   {"title":"MR. JONES-UA","start":"2026-11-16T09:00:45","durationSeconds":5400},
   {"title":"FALLING-R","start":"2026-11-16T11:15:37","durationSeconds":5400},
   {"title":"EVERYBODY WANTS SOME-R","start":"2026-11-16T13:30:20","durationSeconds":5400},
@@ -3157,5 +3157,4 @@
   {"title":"HIGH STRUNG FREE DANCE-PG","start":"2026-11-30T16:35:31","durationSeconds":5400},
   {"title":"CHAPPIE - R","start":"2026-11-30T18:35:33","durationSeconds":5400},
   {"title":"DESTINATION WEDDING-R","start":"2026-11-30T20:45:26","durationSeconds":5400}
-]
 ]
